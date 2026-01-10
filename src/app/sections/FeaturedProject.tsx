@@ -119,7 +119,7 @@ const data = [
     {
     category: "Machine Learning",
     title: "Find My Spot",
-    src: "/findmyspot.png",
+    src: "/Find_myspot.png",
     content: <Findmyspot />,
     githubUrl: "https://github.com/Durvankur-Rajam/find-my-spot",
   },
