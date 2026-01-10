@@ -20,6 +20,11 @@ const ContactPage = () => {
       link: "mailto:durvankurrajam099@gmail.com?subject=Hello%20my%20friend",
       description: "Let's talk business",
     },
+    {
+      name: "CV",
+      link: "durvankur_cv.pdf",
+      description: "Download my resume",
+    },
   ];
 
   return (
