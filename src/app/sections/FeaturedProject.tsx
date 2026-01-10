@@ -48,7 +48,7 @@ const Findmyspot = () => (
     </p>
 
     <Image
-      src="/find_myspot.png"
+      src="/Find_myspot.png"
       alt="findmyspot preview"
       width={600}
       height={400}
@@ -119,7 +119,7 @@ const data = [
     {
     category: "Machine Learning",
     title: "Find My Spot",
-    src: "/Find_myspot.png",
+    src: "/findmyspot.png",
     content: <Findmyspot />,
     githubUrl: "https://github.com/Durvankur-Rajam/find-my-spot",
   },
