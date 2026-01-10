@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta name="description" content="Durvankur Rajam's portfolio" />
 
         {/* Open Graph / Facebook */}
-        <meta property="og:url" content="https://durvankur.vercel.app/" />
+        <meta property="og:url" content="https://durvankur-portfolio.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Durvankur Rajam" />
         <meta

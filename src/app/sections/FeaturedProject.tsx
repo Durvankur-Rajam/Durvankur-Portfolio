@@ -28,12 +28,11 @@ export function FeaturedProject() {
 const TailScape = () => (
   <div className="bg-[#1a1a1a] p-8 rounded-3xl">
     <p className="text-lg font-semibold max-w-3xl mx-auto">
-      TailScape is a modern web UI project focused on clean design,
-      responsiveness, and component reusability.
+      Tailscape is a web application that allows users to buy small pets and pet-related products, while also providing access to personalized veterinary care.
     </p>
 
     <Image
-      src="/tailscape.png"
+      src="/Tailscape.png"
       alt="TailScape preview"
       width={600}
       height={400}
@@ -45,12 +44,44 @@ const TailScape = () => (
 const Findmyspot = () => (
   <div className="bg-[#1a1a1a] p-8 rounded-3xl">
     <p className="text-lg font-semibold max-w-3xl mx-auto">
-      Find My spot is parking detector
+      Find My Spot is a smart parking detector designed to analyze parking areas and detect available spots, enabling faster and more efficient parking.
     </p>
 
     <Image
-      src="/findmyspot.png"
+      src="/find_myspot.png"
       alt="findmyspot preview"
+      width={600}
+      height={400}
+      className="mt-6 mx-auto object-contain"
+    />
+  </div>
+);
+
+const Ollama_chatbot = () => (
+  <div className="bg-[#1a1a1a] p-8 rounded-3xl">
+    <p className="text-lg font-semibold max-w-3xl mx-auto">
+      Ollama Chatbot is an offline AI chatbot powered by the Ollama LLM that delivers ChatGPT-like conversational capabilities without requiring an internet connection.
+    </p>
+
+    <Image
+      src="/Ollama_chatbot.png"
+      alt="Ollama_chatbot preview"
+      width={600}
+      height={400}
+      className="mt-6 mx-auto object-contain"
+    />
+  </div>
+);
+
+const Ai_image_detector = () => (
+  <div className="bg-[#1a1a1a] p-8 rounded-3xl">
+    <p className="text-lg font-semibold max-w-3xl mx-auto">
+      AI Image Detector analyzes images to identify AI-generated content and automatically applies a watermark to detected AI-generated images
+    </p>
+
+    <Image
+      src="/Ai_image_detector.png"
+      alt="Ollama_chatbot preview"
       width={600}
       height={400}
       className="mt-6 mx-auto object-contain"
@@ -90,10 +121,25 @@ const data = [
     title: "Find My Spot",
     src: "/findmyspot.png",
     content: <Findmyspot />,
-    githubUrl: "https://github.com/miniprj24/find-my-spot",
+    githubUrl: "https://github.com/Durvankur-Rajam/find-my-spot",
   },
 
     {
+    category: "DEVELOPMENT",
+    title: "Ollama_chatbot",
+    src: "/Ollama_chatbot.png",
+    content: <Ollama_chatbot />,
+    githubUrl: "https://github.com/Durvankur-Rajam/LocalMate",
+  },
+
+  {
+    category: "WEB DEVELOPMENT",
+    title: "AI Image Detector",
+    src: "/Ai_image_detector.png",
+    content: <Ai_image_detector />,
+    githubUrl: "https://github.com/Durvankur-Rajam/ai-image-detector",
+  },
+      {
     category: "WEB DEVELOPMENT",
     title: "todo-SpringBoot",
     src: "/todolist.png",

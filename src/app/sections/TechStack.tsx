@@ -5,7 +5,7 @@ export default function TechStack() {
     <div className="pt-10 md:pt-15">
       <ScrollVelocity
         texts={[
-          "<Python> <Java> <SQL> [AI/ML] [Web Development] [UI/UX] ",
+          "<Javascript> <ReactJs> <NodeJS> <Java> <SQL> [AI/ML] [Web Development] [UI/UX] ",
           
         ]}
         velocity={80}

@@ -37,7 +37,7 @@ const AboutPage = () => {
                 <div className="relative w-60 h-60 md:w-80 md:h-80">
                   <div className="overflow-hidden rounded-full w-full h-full">
                     <Image
-                      src="/myprofile.jpg"
+                      src="/myprofile.jpeg"
                       alt="Durva's alt profile pic"
                       layout="fill"
                       objectFit="cover"
@@ -129,7 +129,7 @@ const AboutPage = () => {
                   <div className="relative w-60 h-60 md:w-80 md:h-80">
                     <div className="overflow-hidden rounded-full w-full h-full">
                       <Image
-                        src="/myprofile.jpg"
+                        src="/myprofile.jpeg"
                         alt="Durva's profile pic"
                         layout="fill"
                         objectFit="cover"
