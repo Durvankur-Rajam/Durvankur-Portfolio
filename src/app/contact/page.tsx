@@ -22,7 +22,7 @@ const ContactPage = () => {
     },
     {
       name: "CV",
-      link: "durvankur_cv.pdf",
+      link: "durvankur_CV.pdf",
       description: "Download my resume",
     },
   ];
